@@ -1,0 +1,10 @@
+obj-$(CONFIG_HSA) += hsa_agent.o 
+obj-$(CONFIG_HSA) += hsa_cu.o
+obj-$(CONFIG_HSA) += hsa_helper.o
+obj-$(CONFIG_HSA) += hsa_help_info.o
+obj-$(CONFIG_HSA) += hsa_fexcept.o
+obj-$(CONFIG_HSA) += hsa_linkloader.o
+obj-$(CONFIG_HSA) += hsa_prof.o
+obj-$(CONFIG_HSA) += topology.o
+obj-$(CONFIG_HSA) += pqemu-dev.o
+obj-$(CONFIG_HSA) += hsa_deviceEnqueue.o
